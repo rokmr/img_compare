@@ -1,0 +1,17 @@
+name: imgcomp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.11
+  - pip
+  - pillow
+  - numpy
+  - pip:
+    - gradio>=4.0.0
+    - opencv-python
+    - scikit-image
+    - matplotlib 
+    - streamlit
+    - streamlit-image-comparison
+    - streamlit-js-eval
