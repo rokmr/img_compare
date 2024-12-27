@@ -44,10 +44,10 @@ venv.bak/
 Thumbs.db
 
 # Project specific
-flagged/     # Gradio's flagged files directory
-.gradio/     
-tmp/         # Temporary files
-*.log        # Log files
+flagged/
+.gradio/
+tmp/
+*.log
 folder1/
 folder2/
 folder3/
